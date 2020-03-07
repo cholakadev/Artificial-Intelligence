@@ -117,3 +117,11 @@ section{
     background-size: cover;
     height: calc(100vh - 80px);
 }
+
+section p{
+    color: white;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px
+    text-align: left;
+}
