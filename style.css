@@ -16,7 +16,7 @@ nav{
     width: 100%;
 }
 
-№checkbtn{
+#checkbtn{
     color: white;
     font-size: 35px;
     line-height: 60px;
@@ -44,6 +44,8 @@ nav{
 nav ul{
     float: right;
     margin-right: 20px;
+    position: fixed;
+    z-index: 2;
 }
 
 nav ul li{
@@ -83,7 +85,6 @@ a.active, a:hover{
     label.logo{
         font-size: 30px;
         padding-left: 50px;
-
     }
 
     nav ul li a{
@@ -94,7 +95,6 @@ a.active, a:hover{
 @media (max-width: 856px){
     .checkbtn{
         display: block;
-
     }
 
     ul{
@@ -110,13 +110,12 @@ a.active, a:hover{
 
     nav ul li{
         display: block;
-        margin: 50px 0;
+        margin: 30px 0;
         line-height: 30px;
     }
 
     nav ul li a{
         font-size: 20px;
-
     }
 
     a:hover, a.active{
@@ -128,12 +127,6 @@ a.active, a:hover{
         left: 0;
     }
 }
-
-/* section{
-    background: url(programming3.gif) no-repeat;
-    background-size: cover;
-    height: calc(100vh - 80px);
-} */
 
 section p{
     color: black;
