@@ -112,21 +112,24 @@ a.active, a:hover{
     }
 }
 
-section{
-    background: url(programming.jpg) no-repeat;
+/* section{
+    background: url(programming3.gif) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
-}
+} */
 
 section p{
-    color: white;
-    /* padding-top: 30px; */
-    padding-left: 15px;
+    color: black;
+    padding-top: 30px;
     padding-right: 15px;
     text-align: left;
-
 }
 
 #logo {
     height: 80px;
+}
+
+#artvshuman{
+    max-width: 100%;
+    max-height: auto;
 }
